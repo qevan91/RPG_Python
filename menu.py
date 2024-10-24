@@ -16,6 +16,7 @@ class Menu:
         if reponse == "1":
             print("Création de la partie")
             Nom = input("Nom du joueur : ")
+            os.system("cls")
         elif reponse == "2":
             print("Chargement de la partie")
         elif reponse == "3":
